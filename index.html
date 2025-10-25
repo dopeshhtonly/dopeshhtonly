@@ -5,32 +5,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dope Shht Only</title>
 <style>
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff; /* sfondo bianco */
-    text-align: center;
+  html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
   }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* sfondo bianco */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centra verticalmente */
+    align-items: center;     /* centra orizzontalmente */
+    text-align: center;
+  }
   .top-text {
     font-size: 2em;
-    color: #ff007f; /* fucsia */
-    margin-top: 50px;
+    color: #ff0000; /* rosso */
+    margin-bottom: 20px;
   }
-  .logo {
-    margin: 50px auto;
+  .logo img {
+    max-width: 250px;
+    height: auto;
   }
   .bottom-text {
     font-size: 1.8em;
-    color: #ff007f; /* fucsia */
-    margin-bottom: 50px;
+    color: #ff0000; /* rosso */
+    margin-top: 20px;
   }
 </style>
 </head>
 <body>
   <div class="top-text">We are coming...</div>
   <div class="logo">
-    <img src="https://res.cloudinary.com/dtxtpqmdd/image/upload/v1761372885/Screenshot_2025-10-24_104700_bcj097.png" alt="Logo Dope Shht Only" width="250">
+    <img src="https://res.cloudinary.com/dtxtpqmdd/image/upload/v1761372885/Screenshot_2025-10-24_104700_bcj097.png" alt="Logo Dope Shht Only">
   </div>
   <div class="bottom-text">...stay tuned!</div>
 </body>
