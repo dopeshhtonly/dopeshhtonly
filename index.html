@@ -4,16 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dope Shht Only</title>
-<!-- Google Font -->
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Nimbus+Sans+L&display=swap'); /* Google Fonts fallback */
+  
   html, body {
     height: 100%;
     margin: 0;
     padding: 0;
   }
   body {
-    font-family: Arial, sans-serif;
+    font-family: 'Nimbus Sans L', Arial, sans-serif; /* Nimbus Sans L principale, fallback ad Arial e sans-serif */
     background-color: #ffffff; /* sfondo bianco */
     display: flex;
     flex-direction: column;
@@ -27,10 +27,10 @@
     margin-bottom: 30px;
   }
   .bottom-text {
-    font-family: 'Dancing Script', cursive;
     font-size: 2em;
     color: #ff0000; /* rosso */
     margin-top: 20px;
+    font-style: italic; /* corsivo */
   }
 </style>
 </head>
